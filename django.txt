@@ -1,0 +1,9 @@
+Iniciando projeto Django
+
+django-admin startproject <nome> .
+
+Iniciando app django
+
+python manage.py startapp <nome>
+
+adicionar o app no settings.py em "INSTALLED_APPS"

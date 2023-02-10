@@ -1,8 +1,11 @@
-1 - Entrar em settings no vscode (engranagemzinha no canto inferior esquerdo da tela)
-2 - 
+1 - Entrar em settings no vscode (engranagenzinha no canto inferior esquerdo da tela)
+2 - No canto superior direito, clique em "Open Setting.JSON"
+3 - copie as settings abaixo
 
 {
   "window.zoomLevel": 0,
+  "editor.fontsize": 24,
+  "files.autoSave": "afterDelay",
   "python.languageServer": "Pylance", // ms-python.vscode-pylance
   "python.testing.unittestEnabled": false, // ms-python.python
   "python.testing.pytestEnabled": true,
@@ -20,7 +23,6 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
-    "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     }
@@ -36,7 +38,7 @@
   },
   "[django-html]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.defaultFormatter": "monosans.djlint",
     "editor.quickSuggestions": {
       "other": true,
       "comments": true,
@@ -59,5 +61,11 @@
     "django-html": "html", // batisteo.vscode-django
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
-  }
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.compactFolders": false,
+  "workbench.colorTheme": "OM Theme (No Italic)",
+  "editor.defaultFormatter": "vscode.html-language-features",
+  "editor.formatOnSave": true
+    
 }

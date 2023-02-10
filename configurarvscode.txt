@@ -1,0 +1,5 @@
+1 - CTRL + SHIFT + P procurar por Select Interpreter, escolher a venv.
+
+2 - CLique em Run and Debug no canto esquerdo da tela e clique na opção "create a launch.son file"
+
+3 - Extensão OM theme dracula mais escuro
